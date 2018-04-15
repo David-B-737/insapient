@@ -1,0 +1,9 @@
+h3 {
+    text-align: center;
+}
+
+.brand-logo img {
+    height: 9vh;
+    width: 28vh;
+    padding-top: 1vh;    
+}
