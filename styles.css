@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cinzel', serif;
     background-color: #424242 ;
 }
 
@@ -42,7 +42,7 @@ h3 {
     text-align: center;
 }
 
-.contact-icon {
-    font-size: 2.3vh;
+.media-icon {
+    font-size: 3vh;
     color: #eeeeee;
 }
