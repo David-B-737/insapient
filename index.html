@@ -17,7 +17,7 @@
     <!--Materialize CSS-->
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css" media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="styles.css"/> 
-    <title>Insapient - Official Page</title>
+    <title>Insapient - Official Site</title>
 </head>
 <body>
     <!--Navbar-->
@@ -39,14 +39,14 @@
         </nav>
     </div>
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="#home-section">Home</a></li>
-        <li><a href="#band-section">Band</a></li>
-        <li><a href="#songs-section">Songs</a></li>
-        <li><a href="#videos-section">Videos</a></li>
-        <li><a href="#media-section">Contact</a></li>            
+        <li><a href="#home-section" onclick="closeSideNav()">Home</a></li>
+        <li><a href="#band-section" onclick="closeSideNav()">Band</a></li>
+        <li><a href="#songs-section" onclick="closeSideNav()">Songs</a></li>
+        <li><a href="#videos-section" onclick="closeSideNav()">Videos</a></li>
+        <li><a href="#media-section" onclick="closeSideNav()">Media</a></li>            
     </ul>
     <div>
-        <section id="home-section" class="scrollspy">
+        <section id="home-section">
             <div class="container">
                 <!--Home-->
                 <div class="row">
@@ -179,7 +179,7 @@
         </section>
                     
         <!--Media-->
-        <section id="media-section" class="scrollspy">
+        <section id="media-section" class="section scrollspy">
             <h3 class="grey darken-4 grey-text text-lighten-4 z-depth-4">Media</h3>
             <div class="container">
                 <div class="row">
@@ -218,6 +218,7 @@
                 </div>
             </div>
         </section>
+
     </div>
     <!--Materialize JS-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
