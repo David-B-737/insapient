@@ -42,32 +42,46 @@ export default {
 .background {
 	opacity: 0;
 	background-image: url("http://res.cloudinary.com/dqvimfd8b/image/upload/v1526902310/insapient/home/teeth.jpg");
+	background-repeat: repeat;
 	-webkit-animation: subliminalImage 20s ease infinite;
 	-moz-animation: subliminalImage 20s ease infinite;
 	animation: subliminalImage 20s ease infinite;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
 }
 
 @-webkit-keyframes subliminalImage {
-	99% {
-		opacity: 100;
+	98.99999% {
+		opacity: 0;
 	}
-	100% {
+	99% {
+		opacity: 1;
+	}
+	99.11111% {
 		opacity: 0;
 	}
 }
 @-moz-keyframes subliminalImage {
-	99% {
-		opacity: 100;
+	98.99999% {
+		opacity: 0;
 	}
-	100% {
+	99% {
+		opacity: 1;
+	}
+	99.11111% {
 		opacity: 0;
 	}
 }
 @keyframes subliminalImage {
-	99% {
-		opacity: 100;
+	98.99999% {
+		opacity: 0;
 	}
-	100% {
+	99% {
+		opacity: 1;
+	}
+	99.11111% {
 		opacity: 0;
 	}
 }
